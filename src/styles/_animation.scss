@@ -1,0 +1,47 @@
+@keyframes shapeAnime {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes preview {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: translateX(-1000%);
+  }
+
+  25% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    ransform: translateX(0);
+  }
+
+  75% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+    transform: scale(1.09);
+  }
+}
